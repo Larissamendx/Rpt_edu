@@ -1,0 +1,7 @@
+<svg id="MDI_bullseye-arrow" data-name="MDI / bullseye-arrow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Boundary" fill="#fa7e61" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="30" height="30" stroke="none"/>
+    <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+  </g>
+  <path id="Path_bullseye-arrow" data-name="Path / bullseye-arrow" d="M15,2A13,13,0,1,0,28,15a12.7,12.7,0,0,0-.793-4.407l-2.08,2.08A10.073,10.073,0,0,1,25.4,15,10.4,10.4,0,1,1,15,4.6a10.073,10.073,0,0,1,2.327.273L19.42,2.78A13.133,13.133,0,0,0,15,2m9.1,0L18.9,7.2V9.15l-3.315,3.315A1.8,1.8,0,0,0,15,12.4,2.6,2.6,0,1,0,17.6,15a1.8,1.8,0,0,0-.065-.585L20.85,11.1H22.8L28,5.9H24.1V2M15,7.2A7.8,7.8,0,1,0,22.8,15H20.2A5.2,5.2,0,1,1,15,9.8Z" transform="translate(0 0)" fill="#fa7e61"/>
+</svg>

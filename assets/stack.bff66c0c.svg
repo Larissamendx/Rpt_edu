@@ -1,0 +1,7 @@
+<svg id="MDI_stack-overflow" data-name="MDI / stack-overflow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Boundary" fill="#ff9880" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="40" height="40" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+  </g>
+  <path id="Path_stack-overflow" data-name="Path / stack-overflow" d="M26.933,32.42V23.453h2.983V35.42H3V23.453H6V32.42H26.933m-17.65-9.8L9.9,19.687,24.55,22.77,23.933,25.7,9.283,22.62M11.217,15.6l1.267-2.683,13.567,6.3-1.267,2.7L11.217,15.6m3.767-6.65,1.917-2.3,11.5,9.6-1.917,2.283-11.5-9.583M22.4,1.87l8.933,12.017-2.4,1.783L20,3.653,22.4,1.87M8.983,29.437v-3H23.95v3Z" transform="translate(3.667 1.463)" fill="#ff9880"/>
+</svg>

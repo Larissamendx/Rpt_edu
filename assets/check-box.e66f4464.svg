@@ -1,0 +1,13 @@
+<svg id="Componente_9_1" data-name="Componente 9 – 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Retângulo_123" data-name="Retângulo 123" fill="#78407d" stroke="#78407d" stroke-width="1">
+    <rect width="20" height="20" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="19" height="19" rx="4.5" fill="none"/>
+  </g>
+  <g id="MDI_check-bold" data-name="MDI / check-bold">
+    <g id="Boundary" fill="#fffcf2" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <path id="Path_check-bold" data-name="Path / check-bold" d="M7.267,16.083,2.79,11.606l2.04-2.04L7.267,12.01l7.123-7.13,2.04,2.04Z" transform="translate(0.773 -0.673)" fill="#fffcf2" opacity="0.92"/>
+  </g>
+</svg>

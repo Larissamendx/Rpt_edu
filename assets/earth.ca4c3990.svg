@@ -1,0 +1,7 @@
+<svg id="MDI_earth" data-name="MDI / earth" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Boundary" fill="#ff9880" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="40" height="40" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+  </g>
+  <path id="Path_earth" data-name="Path / earth" d="M28.5,27.65a3.343,3.343,0,0,0-3.167-2.317H23.667v-5A1.667,1.667,0,0,0,22,18.667H12V15.333h3.333A1.667,1.667,0,0,0,17,13.667V10.333h3.333A3.333,3.333,0,0,0,23.667,7V6.317A13.3,13.3,0,0,1,28.5,27.65M17,31.883a13.269,13.269,0,0,1-11.317-16.2l7.983,7.983v1.667A3.333,3.333,0,0,0,17,28.667M18.667,2A16.667,16.667,0,1,0,35.333,18.667,16.667,16.667,0,0,0,18.667,2Z" transform="translate(1.333 1.333)" fill="#ff9880"/>
+</svg>

@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LFT-Etica-Light";
+  font-style: "normal";
+  src: local("LFT_Etica_Light"),
+    url("../fonts/LFT_Etica_Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-Light-Italic";
+  font-style: "italic";
+  src: local("LFT_Etica_LightItalic"),
+    url("../fonts/LFT_Etica_LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-Book";
+  font-style: "normal";
+  src: local("LFT_Etica_Book"),
+    url("../fonts/LFT_Etica_Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-Book-Italic";
+  font-style: "italic";
+  src: local("LFT_Etica_BookItalic"),
+    url("../fonts/LFT_Etica_BookItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-SemiBold";
+  font-style: "normal";
+  src: local("LFT_Etica_SemiBold"),
+    url("../fonts/LFT_Etica_Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-SemiBold-Italic";
+  font-style: "italic";
+  src: local("LFT_Etica_SemiBoldItalic"),
+    url("../fonts/LFT_Etica_SemiboldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-Bold";
+  font-style: "normal";
+  src: local("LFT_Etica_Bold"),
+    url("../fonts/LFT_Etica_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LFT-Etica-Bold-Italic";
+  font-style: "normal";
+  src: local("LFT_Etica_BoldItalic"),
+    url("../fonts/LFT_Etica_BoldItalic.otf") format("opentype");
+}
+
+@layer base {
+  html {
+    @apply text-[16px] lg:text-[18px];
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-main leading-[1.50em] lg:leading-[1.25em];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply leading-[1.15em];
+  }
+
+  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+
+    display: grid;
+    place-content: center;
+  }
+
+  input[type="radio"]::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: currentColor;
+  }
+
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    border: 0.1em solid currentColor;
+    border-radius: 5px;
+
+    display: grid;
+    place-content: center;
+  }
+
+  input[type="checkbox"]::before {
+    content: "";
+    filter: opacity(0);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    transition: 120ms filter ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-image: url("../assets/check-box.svg");
+  }
+
+  input[type="checkbox"]:checked::before {
+    filter: opacity(100%);
+  }
+
+  input[disabled] + span {
+    @apply text-base-300/30;
+  }
+}
+
+.line {
+  @apply before:w-screen before:h-[1px] before:border before:border-violet-200/[0.25] before:absolute before:bottom-0;
+}
+
+.line-purple {
+  @apply before:w-screen before:h-[1px] before:border before:border-primary-100/[0.5] before:absolute before:bottom-[-30px];
+}
